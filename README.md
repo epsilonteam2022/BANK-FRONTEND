@@ -78,8 +78,8 @@ _Principales involucrados team Frontend_
 - **Nicolás Contreras** - _Frontend Developer_ - [Nejca13](https://github.com/Nejca13)
 - **Sabina Etcheverry** - _Frontend Developer_ - [Sabina-etcheverry](https://github.com/Sabina-etcheverry)
 - **Alexis Santa Ana** - _Frontend Developer_ - [AlexisSantaAna](https://github.com/AlexisSantaAna)
-- **deiby** - _Frontend Developer_ - [DeibyPeralta](https://github.com/DeibyPeralta)
-- **Manolo** - _Frontend Developer_ - [merb26](https://github.com/merb26)
+- **Deiby Peralta** - _Frontend Developer_ - [DeibyPeralta](https://github.com/DeibyPeralta)
+- **Manuel Ramirez** - _Frontend Developer_ - [merb26](https://github.com/merb26)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/epsilonteam2022/BANK-FRONTEND/graphs/contributors) quíenes han participado en este proyecto.
 
