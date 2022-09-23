@@ -9,7 +9,7 @@ _Equipo Epsilon Frontend_
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
 Para empezar:
-Antes que nada Clona el repositorio en tu maquina local, para ello basta con copiar el Link HTTPS del boton de color verde _Code_ que esta en la parte superior derecha de la pagina del repe. Acto seguido abrir una _Terminal_ en tu máquina local y ubicarte en una carpeta donde guardes tus proyectos.
+Antes que nada Clona el repositorio en tu maquina local, para ello basta con copiar el Link HTTPS del boton de color verde _Code_ que esta en la parte superior derecha de la pagina del repo. Acto seguido abrir una _Terminal_ en tu máquina local y ubicarte en una carpeta donde guardes tus proyectos.
 Ahora escribimos.
 
 ```
@@ -79,7 +79,7 @@ _Principales involucrados team Frontend_
 - **Sabina Etcheverry** - _Frontend Developer_ - [Sabina-etcheverry](https://github.com/Sabina-etcheverry)
 - **Alexis Santa Ana** - _Frontend Developer_ - [AlexisSantaAna](https://github.com/AlexisSantaAna)
 - **deiby** - _Frontend Developer_ - [DeibyPeralta](https://github.com/DeibyPeralta)
-- **Manolo** - _Frontend Developer_ -
+- **Manolo** - _Frontend Developer_ - [merb26](https://github.com/merb26)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/epsilonteam2022/BANK-FRONTEND/graphs/contributors) quíenes han participado en este proyecto.
 
