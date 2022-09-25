@@ -1,5 +1,9 @@
 {
-  "semi": false,
-  "singleQuote": true,
-  "jsxSingleQuote": true
+    "editor.formatOnSave": true,
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "tabWidth": 4,
+    "bracketSameLine": true,
+    "arrowParens": "always"
 }
