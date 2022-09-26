@@ -1,0 +1,52 @@
+.Main {
+    height: 100vh;
+    background-color: var(--dark);
+    font-family: var(--font-family);
+    padding-top: 82px;
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px;
+        .saldo {
+            color: var(--white);
+            display: flex;
+            flex-direction: column;
+            .montoActual {
+                font-style: normal;
+                font-weight: 600;
+                font-size: 38px;
+                line-height: 30px;
+                text-align: center;
+                margin: 0;
+            }
+            .subTitle {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                letter-spacing: -0.408px;
+                font-feature-settings: 'case' on;
+            }
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            height: fit-content;
+            .profilePhoto {
+                width: 48px;
+                height: 48px;
+                border-radius: 14px;
+                border: 1px solid var(--white);
+                margin-left: 6px;
+            }
+            .notificationIcon {
+                width: 24px;
+                height: 24px;
+                margin-right: 6px;
+            }
+        }
+    }
+}
