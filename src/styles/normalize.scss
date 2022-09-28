@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200&display=swap');
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
-
+:root {
+    --blue: #e3ebee;
+    --white: #FFFFFF;
+    --dark: #1C1B20;
+    --grey: #242328;
+    --green: #1CAEA3;
+    --box-shadow: 2px 2px 10px;
+    --font-family: 'Source Sans Pro', sans-serif; 
+  }
 /*
 Document
 ========
