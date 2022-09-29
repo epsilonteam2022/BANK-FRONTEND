@@ -1,0 +1,65 @@
+
+.transfElement {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #484848;
+    width: 100%;
+    height: 4rem;
+
+    &__date {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        height: 100%;
+        color: #BBBBBB;
+    }
+
+    &__day {
+        margin: 0;
+    }
+
+    &__month {
+        margin: 0;
+    }
+
+    &__desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        color: #BBBBBB;
+        width: 45%;
+    }
+
+    &__destination {
+        font-size: small;
+        margin: 0.2rem;
+    }
+
+    &__name {
+        font-size: 1.1rem;
+        margin: 0;
+    }
+
+    &__money {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: center;
+        color: #BBBBBB;
+        padding-right: 0.5rem;
+        width: 8rem;
+    }
+
+    &__mount {
+        margin: 0;
+    }
+
+    &__balance {
+        font-size: 0.9rem;
+        margin: 0;
+    }
+
+}
