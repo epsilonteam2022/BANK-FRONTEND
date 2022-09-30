@@ -2,6 +2,7 @@
 /* eslint-disable no-unused-vars */
 import { useState, useContext, useEffect } from 'react'
 import { GlobalContext } from '../../contexts/GlobalContext'
+import Boton from '../Boton/Boton';
 import TransfElement from '../TransfElement/TransfElement'
 import sty from './Transferencias.module.scss'
 
@@ -33,8 +34,16 @@ function Transferencias() {
                 <div className={sty.transferencias__headerDiv}>
                     <h2 className={sty.transferencias__headerArrow}>⟨</h2>
                     <h2 className={sty.transferencias__headerDivTitle}>Trasnferencias</h2>
-                </div>                    
-                <button>Nueva Transferencia</button>
+                </div>   
+
+                <div className={sty.transferencias__boton}>
+                    <Boton 
+                        fn = {null}
+                        name = "Nueva Transferencia"
+                        background = "#1CAEA3"
+                        border = "#F2F2F2"
+                    />
+                </div>                 
             </div>
 
             <div className={sty.transferencias__history}>

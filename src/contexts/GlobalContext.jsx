@@ -91,7 +91,7 @@ function GlobalProvider({children}){
                     balance: '19.931,50'
                 }
             ])
-        }, 20)
+        }, 2000)
     }
 
     return(

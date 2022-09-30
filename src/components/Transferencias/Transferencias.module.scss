@@ -16,18 +16,6 @@
         height: 13.5rem;
         background-color: #242328;
         border-radius: 0 0 3.125rem 3.125rem;        
-
-        button {
-            width: 15rem;
-            height: 2.8rem;
-            color: #F2F2F2;
-            font-weight: 600;
-            font-style: normal;
-            background-color: #1CAEA3;
-            border: #1CAEA3;
-            border-radius: 1.4rem;
-            margin-bottom: 3rem;
-        }
     }
 
     &__headerArrow {
@@ -44,6 +32,10 @@
 
     &__headerDivTitle {
         margin-right: 6rem;
+    }
+
+    &__boton {
+        margin-bottom: 3rem;
     }
 
     &__history {
