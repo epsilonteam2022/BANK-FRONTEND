@@ -1,0 +1,143 @@
+.transferencia {
+    background: #19191D;
+
+    .encabezado {
+        display: flex;
+        justify-content: space-between;
+
+        &__flecha {
+            margin-left: 16px;
+        }
+
+        &__titulo {
+            color: #FFFFFF;
+            font-size: 24px;
+            line-height: 50px;
+            text-align: center;
+            width: 100%;
+        }
+    }
+
+    .datos {
+
+        &__fondo {
+            height: 473px;
+            background: linear-gradient(110.44deg, #0A397E 1.12%, #0A397E 1.26%, #FD0E0E 1.27%, #F91212 1.28%, #0C4944 1.29%, #147C74 86.85%);
+            border-radius: 0px 0px 50px 50px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            &__caja1 {
+                width: 251px;
+                height: 140px;
+
+                display: flex;
+                flex-direction: column;
+
+                &__titulo {
+                    color: #BBBBBB;
+                    font-size: 20px;
+                    line-height: 34px;
+                    margin-bottom: 13px;
+                    text-align: center;
+                }
+
+                &__subtitulo {
+                    color: #BBBBBB;
+                    font-size: 14px;
+                    line-height: 18px;
+                    margin-bottom: 4px;
+                }
+
+                &__cuadro {
+                    height: 74px;
+                    border: 1px solid #0C4944;
+                    border-radius: 12px;
+                    background: #0F605A;
+
+                    &__monto {
+                        color: #F2F2F2;
+                        font-size: 40px;
+                        line-height: 50px;
+                        height: 100%;
+
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }
+            }
+
+            &__caja2 {
+                width: 325px;
+                height: 210px;
+                margin-top: 17px;
+                margin-bottom: 64px;
+
+                &__datos {
+                    color: #BBBBBB;
+                    font-size: 14px;
+                    line-height: 18px;
+                    margin-bottom: 4px;
+                    margin-top: 12px;
+                }
+
+                &__cuadro {
+                    height: 44px;
+                    background: #0F605A;
+                    border: 1px solid #0C4944;
+                    border-radius: 12px;
+
+                    font-size: 14px;
+                    line-height: 18px;
+                    color: #BBBBBB;
+                    font-weight: 700;
+
+                    display: flex;
+                    align-items: center;
+                    padding-left: 21px;
+                }
+            }
+        }
+    }
+
+    .botones {
+        &__fondo {
+            height: 163px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+
+            &__boton1 {
+                background: #1CAEA3;
+                border-radius: 36px;
+                padding: 15px 92px;
+                gap: 10px;
+                font-weight: 600;
+                border: none;
+
+                font-size: 14px;
+                line-height: 14px;
+                color: #F2F2F2;
+            }
+
+            &__boton2 {
+                border: none;
+                background: #19191D;
+                border: 1px solid #1CAEA3;
+                border-radius: 36px;
+                font-weight: 600;
+                padding: 15px 117.5px;
+
+                font-size: 14px;
+                line-height: 14px;
+                color: #BBBBBB;
+            }
+        }
+    }
+}
