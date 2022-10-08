@@ -103,7 +103,7 @@ function GlobalProvider({children}){
             titular: "Mariana Gomez",
             tipo: "credito",
             last4: "4568",
-            color: "#ff9318"
+            color: ["#ff9318", "#e0ab6d"]
         },
         {
             id: 2,
@@ -113,7 +113,7 @@ function GlobalProvider({children}){
             titular: "Mariana Gomez",
             tipo: "credito",
             last4: "6875",
-            color: "#153b10"
+            color: ["#153b10", "#375a33"]
         },
         {
             id: 3,
@@ -123,7 +123,7 @@ function GlobalProvider({children}){
             titular: "Mariana Gomez",
             tipo: "debito",
             last4: "1389",
-            color: "#e41717"
+            color: ["#e41717", "#d85c5c"]
         }
     ])
 

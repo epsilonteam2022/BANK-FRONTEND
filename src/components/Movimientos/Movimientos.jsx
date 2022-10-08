@@ -27,12 +27,12 @@ function Movimientos(props) {
         
     }, [transHistory])
 
-
+    let long
 
     return(
         <div className={sty.movimientos}>
             <div className={sty.movimientos__history}>
-                {false /*transHistory.length === 0*/
+                {transHistory.length === 0
                     ?
                     <img src={imagen('./loading.gif')} />
                     :
@@ -42,8 +42,8 @@ function Movimientos(props) {
                             <img src={imagen('./search.png')}/>
                         </div>
 
-                        <div className={sty.movimientos__histDiv} style={{overflow: props.over}}>
-                            {transHistory.map((trans) => {
+                        <div className={sty.movimientos__histDiv} id="histDiv" style={{overflow: props.over}}>
+                            {transHistory.slice(0,long).map((trans) => {
                                 let day = trans.date.getDate()
                                 let month = shortMonth[trans.date.getMonth()]
 

@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     width: 100vw;    
-    height: calc(100vh - 13.5rem - 10rem - 3.5rem);
+    height: calc(100vh - 13.5rem - 10rem - 4rem);
     margin-top: 1rem;
     background-color: #19191D;
 
@@ -60,7 +60,11 @@
     &__histDiv {
         display: flex;
         flex-direction: column;
+        justify-content: flex-start;
         width: 100%;
-        height: calc(100vh - 14rem - 15rem);
+        height: calc(100vh 
+                - 14.5rem /*metPago y menu*/ 
+                - 15rem /*saldo*/);
+        
     }
 }

@@ -15,7 +15,7 @@ function Menu() {
                 <p>Home</p>
             </div>
             <div className={sty.menu__wallet}>
-                {nav.pathname === "/saldo"
+                {nav.pathname === "/loged/wallet"
                     ?
                     <div>
                         <img src={imagen('./GWallet.png')} alt='Wallet' />
@@ -29,7 +29,7 @@ function Menu() {
                 }
             </div>
             <div className={sty.menu__transaction}>
-                {nav.pathname === '/transferencias'
+                {nav.pathname === '/loged/transferencias'
                     ?
                     <div>
                         <img src={imagen('./GArrow.png')} alt='Arrow' />

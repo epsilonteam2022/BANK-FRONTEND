@@ -6,7 +6,7 @@ import sty from './Wallet.module.scss'
 function Wallet() {
     
     return(
-        <div className={sty.wallet}>
+        <div className={sty.wallet} id="wallet">
             <Saldo />
 
             <MetodoPago />
