@@ -1,10 +1,11 @@
 
-.transferencias {
+.movimientos {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: 100vw;    
+    height: calc(100vh - 13.5rem - 10rem - 3.5rem);
+    margin-top: 1rem;
     background-color: #19191D;
 
     &__header {
@@ -18,22 +19,6 @@
         border-radius: 0 0 3.125rem 3.125rem;        
     }
 
-    &__headerArrow {
-        margin-left: 1rem;
-    }
-
-    &__headerDiv {
-        display: flex;
-        justify-content: space-between;
-        color: #F2F2F2;
-        width: 100%;
-        font-size: 1rem;
-    }
-
-    &__headerDivTitle {
-        margin-right: 6rem;
-    }
-
     &__boton {
         margin-bottom: 3rem;
     }
@@ -44,30 +29,14 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-        height: calc(100vh - 3.5rem - 13.5rem);
 
         img {
             width: 10rem;
         }
     }
 
-    &__histDiv {
+    &__hist {
         width: 100%;
-        overflow: scroll;
-    }
-
-    &__histOptions {
-        display: flex;
-        justify-content: end;
-        width: 100%;
-        height: 2rem;
-        margin-top: 1rem;
-
-        img {
-            width: 1rem;
-            height: 1rem;
-            margin-right: 1rem;
-        }
     }
 
     &__histHeader {
@@ -80,5 +49,18 @@
             color: #1CAEA3;
             margin: 0 0.8rem;
         }
+
+        img {
+            width: 1rem;
+            height: 1rem;
+            margin-right: 1rem;
+        }
+    }
+
+    &__histDiv {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: calc(100vh - 14rem - 15rem);
     }
 }

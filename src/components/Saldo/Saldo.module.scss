@@ -1,0 +1,40 @@
+
+.saldo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 13.5rem;
+    background-color: #242328;
+    border-radius: 0 0 3.125rem 3.125rem;
+
+    &__headerDiv {
+        display: flex;
+        justify-content: center;
+        color: #F2F2F2;
+        width: 100%;
+        font-size: 1rem;
+        position: relative;
+    }
+
+    &__headerArrow {
+        position: absolute;
+        left: 2rem;
+    }
+
+    &__headerDivTitle {
+
+    }
+
+    &__amount {
+        color: #F2F2F2;
+        font-weight: 400;
+        font-size: 3rem;
+        margin-bottom: 3rem;
+
+        sup {
+            font-size: 1.8rem;
+        }
+    }
+}

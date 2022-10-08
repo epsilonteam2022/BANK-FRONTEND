@@ -1,8 +1,8 @@
+import { useEffect } from "react";
 import { createContext, useState } from "react";
 
 export const GlobalContext = createContext();
 
-// eslint-disable-next-line react/prop-types
 function GlobalProvider({children}){
 
     const [transHistory, setTransHistory] = useState([])
@@ -94,10 +94,79 @@ function GlobalProvider({children}){
         }, 2000)
     }
 
+    const [metodos, setMetodos] = useState([
+        {
+            id: 1,
+            entity: "Naranja",
+            acountNmr: "34548321-548/546",
+            financial: "visa",
+            titular: "Mariana Gomez",
+            tipo: "credito",
+            last4: "4568",
+            color: "#ff9318"
+        },
+        {
+            id: 2,
+            entity: "CMR",
+            acountNmr: "456968753-48/568",
+            financial: "mastercard",
+            titular: "Mariana Gomez",
+            tipo: "credito",
+            last4: "6875",
+            color: "#153b10"
+        },
+        {
+            id: 3,
+            entity: "Santander",
+            acountNmr: "89765468-6886/845",
+            financial: "visa",
+            titular: "Mariana Gomez",
+            tipo: "debito",
+            last4: "1389",
+            color: "#e41717"
+        }
+    ])
+
+    const [actualPos, setActualPos] = useState(0)
+    const [actualMet, setActualMet] = useState(0)
+
+    const shift = (dir) =>{
+        const ele = document.getElementById("metodos")
+        console.log(ele.scrollWidth);
+        console.log(ele.scrollLeft)
+        console.log(ele.offsetLeft);
+        const padd = parseInt(window.getComputedStyle(ele).getPropertyValue("padding-left").split("px")[0])
+        const nro = metodos.length
+        const paso = (ele.scrollWidth - padd*2)/nro
+        console.log(padd);
+
+        if(dir === "right" && actualPos < (ele.scrollWidth - padd*2 - paso)){ 
+            let actualP = actualPos + paso 
+            let actualM =  actualMet + 1    
+            ele.scroll({left: actualP, behavior:"smooth"})
+            console.log(ele.scrollLeft)
+            setActualPos(actualP)
+        }
+
+        if(dir === "left" && actualPos > 0){ 
+            let actualP = actualPos - paso   
+            let actualM =  actualMet - 1
+            ele.scroll({left: actualP, behavior:"smooth"})
+            console.log(ele.scrollLeft)
+            setActualPos(actualP)
+        }
+    }
+
+    useEffect(() => {
+        console.log(actualPos);
+    }, [actualPos])
+
     return(
         <GlobalContext.Provider value={{
             transHistory,
-            getTransHistory
+            metodos,
+            getTransHistory,
+            shift
         }}>
             {children}
         </GlobalContext.Provider>
